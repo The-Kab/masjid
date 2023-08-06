@@ -182,11 +182,7 @@ section{
         padding-left: 10px;
     }
     .main img{
-        position: absolute;
-        bottom: 150px;
-        left: 100px;
-        width: 250px;
-        size: 120px;
+        visibility: hidden;
     }
     .title{
         font: size 1.8em; 
@@ -215,11 +211,16 @@ section{
     .main-content h3{
         font-size: 1.4em;
     }
+    .main img{
+        display: hide;
+    }
 }
 @media(max-width:300px){
    
     body{
         font-size: 10px;
+        
     }
+   
    
 }
